@@ -30,6 +30,9 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/
 
+#### Rebase Editor
+https://github.com/sjurba/rebase-editor (requires yarn or npm)
+
 ### Homebrew
 - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - `(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/jonathanryer/.zprofile`
@@ -50,3 +53,8 @@ Follow directions here: https://github.com/powerline/fonts?tab=readme-ov-file#qu
 https://ohmyz.sh/#install
 https://github.com/agnoster/agnoster-zsh-theme?tab=readme-ov-file
 ZSH_THEME="agnoster"
+
+#### Node, npm, yarn
+- https://nodejs.org/en
+- npm install --global yarn
+- Add to zshrc export PATH="$(yarn global bin):$PATH"
