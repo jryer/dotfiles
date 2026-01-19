@@ -33,7 +33,7 @@ https://github.com/sjurba/rebase-editor (requires yarn or npm)
 
 ## Homebrew
 - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-- `(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/jonathanryer/.zprofile`
+- `(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> "$HOME/.zprofile"`
 - `eval "$(/opt/homebrew/bin/brew shellenv)"`
 
 References https://brew.sh
